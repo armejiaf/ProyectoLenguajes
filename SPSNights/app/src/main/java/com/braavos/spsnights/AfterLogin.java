@@ -1,5 +1,6 @@
 package com.braavos.spsnights;
 
+
 import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
@@ -17,7 +18,6 @@ import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-
 
 public class AfterLogin extends ActionBarActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
