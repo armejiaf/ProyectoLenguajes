@@ -67,9 +67,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
 
         Parse.initialize(this, "2Chww6BKjr5Daq3uqpQgLzCm4lkJOeMcauVBkzbd", "HzO9VNvdHNPYYn9Q7JU5iarRdE9HkYwLYebbsvhs");
 
-        ParseObject testObject = new ParseObject("TestObject");
-        testObject.put("foo", "bar");
-        testObject.saveInBackground();
+
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
