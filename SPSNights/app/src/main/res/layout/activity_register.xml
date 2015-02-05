@@ -20,8 +20,7 @@
         android:id="@+id/nombre"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="32dp" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -67,7 +66,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/confirmarpassword"
         android:layout_below="@+id/textView4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -78,18 +77,17 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/correo"
-        android:layout_above="@+id/textView3"
+        android:text="Ingrese su correo"
+        android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="31dp"
-        android:text="Ingrese su correo" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Registrar"
         android:id="@+id/registerbtn"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/confirmarpassword"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="57dp"
         android:background="#ff38bcff" />

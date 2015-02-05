@@ -4,14 +4,21 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 
 
 public class RegisterActivity extends ActionBarActivity {
 
+    private EditText nombre,correo,password, confirmarPassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+        nombre= (EditText)findViewById(R.id.nombre);
+        correo= (EditText)findViewById(R.id.correo);
+        password= (EditText) findViewById(R.id.password);
+        confirmarPassword= (EditText) findViewById(R.id.confirmarpassword);
     }
 
 
